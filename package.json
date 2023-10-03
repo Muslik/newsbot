@@ -1,0 +1,27 @@
+{
+  "name": "newstime-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex migrate:latest --knexfile app/db/knexfile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@mtproto/core": "6.3.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "input": "^1.0.1",
+    "joi": "^17.10.2",
+    "knex": "^2.5.1",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.63.0",
+    "prompt": "^1.3.0",
+    "sqlite3": "^5.1.6",
+    "telegram": "^2.18.38"
+  }
+}
